@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tuan4</string>
+    <string name="btnPrevious">&#60;</string>
+    <string name="btnNext">&#62;</string>
+    <string name="btntgOn">Đúng</string>
+    <string name="btntgOff">Sai</string>
+    <string name="tvNoiDung">Câu nào đúng, câu nào sai?</string>
+</resources>

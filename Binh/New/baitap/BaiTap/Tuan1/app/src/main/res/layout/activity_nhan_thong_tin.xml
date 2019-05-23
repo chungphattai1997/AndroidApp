@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NhanThongTin">
+
+    <TextView
+        android:id="@+id/tvNhanThongTin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColor="#E24919"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="31dp" />
+</LinearLayout>

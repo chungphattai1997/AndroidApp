@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuiThongTin">
+
+
+    <EditText
+        android:id="@+id/txtThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:ems="10"
+        android:hint="@string/thongtin"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/btnGuiThongTin"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        android:onClick="clickGuiThongTin"
+        android:text="@string/gui"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+</RelativeLayout>

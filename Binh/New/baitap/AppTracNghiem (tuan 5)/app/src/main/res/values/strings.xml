@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppTracNghiem</string>
+    <string-array name="spinner_default">
+        <item name="value1">1</item>
+        <item name="value2">2</item>
+        <item name="value3">3</item>
+        <item name="value4">4</item>
+    </string-array>
+</resources>

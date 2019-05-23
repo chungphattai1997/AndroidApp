@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Tên: "
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edtTen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="Nhập vào tên ..."
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp">
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radiobuttonNam"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nam"
+                android:textSize="20sp"
+                android:checked="true"/>
+            <RadioButton
+                android:layout_marginStart="5dp"
+                android:id="@+id/radiobuttonNu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nữ"
+                android:textSize="20sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="Sở thích"
+            android:layout_marginStart="5dp"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/checkboxYeuMauTim"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Yêu màu tím"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/checkboxThichMauHong"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Thích màu hồng"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/checkboxSongNoiTam"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Sống nội tâm"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/checkboxHayKhocTham"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hay khóc thầm"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonThongTin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Thông tin"
+        />
+</LinearLayout>

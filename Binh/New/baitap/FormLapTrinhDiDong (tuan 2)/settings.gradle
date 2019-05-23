@@ -1,0 +1,1 @@
+include ':app', ':thongtincanhan', ':soyeulylich', ':changeimage', ':changeformattext', ':guinhanthongtin', ':gamelatbai'

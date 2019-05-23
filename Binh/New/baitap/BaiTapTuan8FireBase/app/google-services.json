@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "439885639527",
+    "firebase_url": "https://giavangfirebase-1333b.firebaseio.com",
+    "project_id": "giavangfirebase-1333b",
+    "storage_bucket": "giavangfirebase-1333b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439885639527:android:5be2adf17103960b",
+        "android_client_info": {
+          "package_name": "com.example.baitaptuan8firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439885639527-lp5up1chstuif78hn6j4cltsds9brne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ4qchCG1zMI1At1DhLIAT1x7AX5viUsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439885639527-lp5up1chstuif78hn6j4cltsds9brne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

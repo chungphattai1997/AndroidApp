@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Switch</string>
+    <string name="btnPrevious">&#60;</string>
+    <string name="btnNext">&#62;</string>
+    <string name="NoiDung">Hai từ tiếng anh nói về tính cách?</string>
+    <string name="PhepTinh">Phép tính nào có kết quả là 2?</string>
+    <string name="Cau1">Friendly</string>
+    <string name="Cau2">Serious</string>
+    <string name="Cau3">Handsome</string>
+    <string-array name="Spinner">
+        <item name="value1">rain</item>
+        <item name="value2">sunny</item>
+        <item name="value3">windy</item>
+        <item name="value4">cloudy</item>
+    </string-array>
+</resources>

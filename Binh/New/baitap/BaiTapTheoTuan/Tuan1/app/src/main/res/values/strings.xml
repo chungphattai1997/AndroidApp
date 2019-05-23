@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tuan1</string>
+    <string name="thongtin">Bạn hãy nhập thông tin</string>
+    <string name="gui">Gửi thông tin</string>
+</resources>
