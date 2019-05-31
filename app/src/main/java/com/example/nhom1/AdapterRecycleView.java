@@ -118,10 +118,15 @@ public class AdapterRecycleView extends RecyclerView.Adapter<AdapterRecycleView.
                 if (recyclerViewHolder.checkBox.isChecked()) {
                     MainActivity.stringList.get(possition).setSes_addSes(1);
                     mainActivity.dataSQL.updateSession(MainActivity.stringList.get(possition));
+                    Intent intent = new Intent(context, MainActivity.class);
+                    startActivity(context, intent, Bundle.EMPTY);
                     Log.e("oke", "update oke");
                 } else {
                     MainActivity.stringList.get(possition).setSes_addSes(0);
                     mainActivity.dataSQL.updateSession(MainActivity.stringList.get(possition));
+                    Intent intent = new Intent(context, MainActivity.class);
+                    startActivity(context, intent, Bundle.EMPTY);
+
                     Log.e("oke", "update oke");
                 }
             }
