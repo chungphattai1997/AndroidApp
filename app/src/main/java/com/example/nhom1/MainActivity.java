@@ -72,12 +72,6 @@ public class MainActivity extends AppCompatActivity {
             String[] out = sessionList.get(i).getSes_Time().split(" ");
             sessionList.get(i).setSes_Time(out[3]);
         }
-//        if (sessionList.isEmpty()) {
-//            String text = "No Alarm Up Comming";
-//            textViewNextAlarm.setText(text);
-//        } else {
-//            textViewNextAlarm.setText(sessionList.get(0).getSes_Time());
-//        }
     }
 
     private void loadRecycleView() {

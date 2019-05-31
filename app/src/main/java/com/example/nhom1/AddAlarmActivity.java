@@ -79,27 +79,17 @@ public class AddAlarmActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (MainActivity.requestCode != 0) {
-                    calendar.set(Calendar.HOUR_OF_DAY, timePicker.getCurrentHour());
-                    calendar.set(Calendar.MINUTE, timePicker.getCurrentMinute());
-                    System.out.println(timePicker.getCurrentHour());
-                    if (AdapterRecycleView.selectedPos == -1) {
-                        System.out.println(calendar.getTimeInMillis());
-                        setTime();
-                    } else {
-                        calendar.setTimeInMillis(convertDateToMilis(MainActivity.stringList.get(AdapterRecycleView.selectedPos).getSes_Time()));
-                        setTime();
-                    }
+                calendar.set(Calendar.HOUR_OF_DAY, timePicker.getCurrentHour());
+                calendar.set(Calendar.MINUTE, timePicker.getCurrentMinute());
+                System.out.println(timePicker.getCurrentHour());
+                if (AdapterRecycleView.selectedPos == -1) {
+                    System.out.println(calendar.getTimeInMillis());
+                    setTime();
                 } else {
-                    MainActivity.requestCode += 1;
-                    calendar.set(Calendar.HOUR_OF_DAY, timePicker.getCurrentHour());
-                    calendar.set(Calendar.MINUTE, timePicker.getCurrentMinute());
-                    if (AdapterRecycleView.selectedPos == -1) {
-                        setTime();
-                    } else {
-                        setTime();
-                    }
+                    calendar.setTimeInMillis(convertDateToMilis(MainActivity.stringList.get(AdapterRecycleView.selectedPos).getSes_Time()));
+                    setTime();
                 }
+
                 Intent intent1 = new Intent(AddAlarmActivity.this, MainActivity.class);
                 startActivity(intent1);
             }
@@ -144,6 +134,7 @@ public class AddAlarmActivity extends AppCompatActivity {
         }
         return timeML;
     }
+
     @Override
     public void onBackPressed() {
         startActivity(new Intent(AddAlarmActivity.this, MainActivity.class));
